@@ -9,9 +9,8 @@
 title: Mun's home
 email: quangnd.edu@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm learning to become a writter. I will write about technology, programming
+  music, running, books, life...Will you follow me?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://quangnd.github.io" # the base hostname & protocol for your site
 twitter_username: quangndedu

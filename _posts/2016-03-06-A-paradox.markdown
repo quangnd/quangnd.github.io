@@ -1,0 +1,12 @@
+---
+layout: post
+title: "A paradox!"
+date: "2016-03-06 11:08:54 +0700"
+categories: jekyll update
+published: true
+---
+
+See this and thinking about it
+
+![This is a paradox]
+(http://quangnd.github.io/images/commitstrip1.jpg)

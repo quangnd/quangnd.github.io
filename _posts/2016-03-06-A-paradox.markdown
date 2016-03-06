@@ -8,5 +8,5 @@ published: true
 
 See this and thinking about it
 
-![This is a paradox]
-(http://quangnd.github.io/images/commitstrip1.jpg)
+![This is a paradox]({{site.baseurl}}/images/commitstrip1.jpg)
+

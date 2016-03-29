@@ -2,7 +2,7 @@
 layout: post
 title: "Chào mừng bạn tới với blog của tôi !"
 date: "2016-03-01 11:08:54 +0700"
-categories: jekyll update
+categories: blog
 published: true
 ---
 

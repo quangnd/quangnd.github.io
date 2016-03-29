@@ -15,10 +15,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://quangnd.github.io" # the base hostname & protocol for your site
 twitter_username: quangndedu
 github_username:  quangnd
+permalink: pretty #config for /:categories/:year/:month/:day/:title/
+
 
 #Paging
 gems: [jekyll-paginate]
-paginate: 2
+paginate: 4
 paginate_path: /page:num
 
 # Build settings

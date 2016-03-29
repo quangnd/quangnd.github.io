@@ -2,7 +2,6 @@
 layout: post
 title:  "A night with Jekyll!"
 date:   2016-03-29 23:51:54 +0700
-categories: various
 ---
 I'm playing with Jekyll without use existence themes.
 

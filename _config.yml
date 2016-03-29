@@ -16,5 +16,12 @@ url: "http://quangnd.github.io" # the base hostname & protocol for your site
 twitter_username: quangndedu
 github_username:  quangnd
 
+#Paging
+gems: [jekyll-paginate]
+paginate: 2
+paginate_path: /page:num
+
 # Build settings
 markdown: kramdown
+
+

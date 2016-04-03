@@ -16,7 +16,7 @@ Learning a language isn't hard.  It's just LONG.
 
 I'm going to use a metaphor that I hope will help you get the knack.
 
-{{site.baseurl}}/images/learning-a-new-lang.jpg)
+![Learning a new language]({{site.baseurl}}/images/learning-a-new-lang.jpg)
 
 I think of learning a language a bit like climbing a mountain (a large but easy mountain, the sort that anyone can climb so long as they keep going).
 

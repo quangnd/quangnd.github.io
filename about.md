@@ -6,6 +6,6 @@ permalink: /about/
 
 My name is Nguyen Dang Quang.
 
-I'am Runner, Programmer, Reader and...Learner!
+I am Runner, Programmer, Reader and...Learner!
 
 Give me five minutes ^^

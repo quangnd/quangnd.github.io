@@ -91,13 +91,16 @@ Listen to the piece at least ten times (repetition) before starting to try to le
 Give yourself a week to learn the piece. Why? Because after seven nights of sleep, something magical happens...
 
 **11. Sleep**
+
 Sleep is vital to memory. In fact, research shows the time of day that you sleep is not that important. Daytime napping is very effective.  Don’t deprive yourself of sleep for too long after you've learned or practised something.  When you sleep your brain starts to build structures to turn short-term memories into long-term memories.  It may be different for you, but I've found that after about seven nights of sleep is about the amount needed (with daily practise) for a text to be effortless to recall.
 
 **12. Exercise**
+
 We tend to think of our brains as separate from our bodies, but of course the brain is part of body. If you exercise, you get huge mental benefits.  It might sound bizarre, but keeping fit will help you learn a language.  You can even combine the two efforts by listen to French audio during a workout or run.
 
 **13. Learn about learning**
+
 I've found that every hour I invested in learning about learning paid off many times over in my learning speed of actual content.  There's general stuff that you can learn about learning that works for everyone, and then there are your own personal learning tricks that can develop; this is about just taking time to reflect on what work best for you and thinking about how to improve on what you're doing.
 
 --
-Source: From an answer from quora.com
+*Source: From an answer from quora.com*

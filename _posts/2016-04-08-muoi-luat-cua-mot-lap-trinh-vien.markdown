@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 luật để trở thành một lập trình viên tốt"
-date: "2016-04-08 12:47:54 +0700"
+date: "2016-04-08 01:47:54 +0700"
 ---
 
 10 luật để trở thành một lập trình viên tốt

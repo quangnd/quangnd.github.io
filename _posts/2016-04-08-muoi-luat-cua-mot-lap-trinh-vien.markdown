@@ -4,15 +4,13 @@ title: "10 luật để trở thành một lập trình viên tốt"
 date: "2016-04-08 01:47:54 +0700"
 ---
 
-10 luật để trở thành một lập trình viên tốt
-
 Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
 
 Dưới đây là 10 luật thú vị rút ra từ cuốn sách, nếu một lập trình viên hiểu và thực hiện những điều này trong công việc hàng ngày, tôi khẳng định chẳng bao lâu anh ta sẽ trở thành một lập trình viên giỏi, viết code rõ ràng, đẹp và có tính tái sử dụng!
 
 **Luật #1: Do not repeat yourself - Đừng lặp lại bản thân bạn**
 
-Respect the DRY principle:
+[Nguyên tắc DRY][DRY] được phát biểu như sau:
 
 > Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
@@ -97,3 +95,4 @@ Source: http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programm
 [test-driven-development]: https://en.wikipedia.org/wiki/Test-driven_development
 [software-rot]: https://en.wikipedia.org/wiki/Software_rot
 [pragmatic-programmer]: https://pragprog.com/book/tpp/the-pragmatic-programmer
+[DRY]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself

@@ -90,10 +90,3 @@ When is a painting finished? Only the painter can say so. You are the painter of
 
 Source: http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programmer/
 
-[the-root-of-all-evil]: http://c2.com/cgi/wiki?PrematureOptimization
-[law-of-demeter]: https://en.wikipedia.org/wiki/Law_of_Demeter
-[refactor]: https://en.wikipedia.org/wiki/Code_refactoring
-[generalization]: https://en.wikipedia.org/wiki/Generalization
-[test-driven-development]: https://en.wikipedia.org/wiki/Test-driven_development
-[software-rot]: https://en.wikipedia.org/wiki/Software_rot
-[pragmatic-programmer]: https://pragprog.com/book/tpp/the-pragmatic-programmer

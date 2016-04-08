@@ -8,13 +8,13 @@ date: "2016-04-08 01:47:54 +0700"
 
 Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
 
-Here are the 10 most interesting rules I’ve found in that book, if a programmer manages to apply them in his daily duties, no doubt they’re pragmatic (and productive).
+Dưới đây là 10 luật thú vị rút ra từ cuốn sách, nếu một lập trình viên hiểu và thực hiện những điều này trong công việc hàng ngày, tôi khẳng định chẳng bao lâu anh ta sẽ trở thành một lập trình viên giỏi, viết code rõ ràng, đẹp và có tính tái sử dụng!
 
-Rule #1: Do not repeat yourself
+**Luật #1: Do not repeat yourself - Đừng lặp lại bản thân bạn**
 
 Respect the DRY principle:
 
-Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
 This will increase your maintenance capabilities and lower bugs proliferation.
 

@@ -6,7 +6,7 @@ date: "2016-04-08 01:47:54 +0700"
 
 10 luật để trở thành một lập trình viên tốt
 
-Bài viết này được lấy ý tưởng từ [pragmatic-programmer][một cuốn sách nổi tiếng]. Rất nổi tiếng ở thế hệ thôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
+Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
 
 Here are the 10 most interesting rules I’ve found in that book, if a programmer manages to apply them in his daily duties, no doubt they’re pragmatic (and productive).
 

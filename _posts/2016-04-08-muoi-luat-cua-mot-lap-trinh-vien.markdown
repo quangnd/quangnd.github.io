@@ -16,13 +16,13 @@ Dưới đây là 10 luật thú vị rút ra từ cuốn sách, nếu một l�
 
 This will increase your maintenance capabilities and lower bugs proliferation.
 
-Rule #2: Fix broken windows
+Rule #2: Fix broken windows - Sửa những ô cửa vỡ
 
-The concept of Broken Windows come from the criminological theory:
+Khái niệm "Những ô cửa sổ vỡ" được rút ra từ lĩnh vực tội phạm học:
 
-Consider a building with a few broken windows. If the windows are not repaired, the tendency is for vandals to break a few more windows. Eventually, they may even break into the building, and if it’s unoccupied, perhaps become squatters.
+> Consider a building with a few broken windows. If the windows are not repaired, the tendency is for vandals to break a few more windows. Eventually, they may even break into the building, and if it’s unoccupied, perhaps become squatters.
 
-In software development, broken windows are bad designs, wrong decisions or even poor code. If you don’t fix them as you find them, you’ll end up quickly with software rot.
+Trong việc phát triển phần mềm, những ô cửa vỡ là những thiết kệ ko tốt, những quyết định sai và cả những dòng code tệ hại. Nếu bạn không fix những lỗi này ngay khi nhận thấy chúng, bạn sẽ nhanh chóng rơi vào trạng thái gọi là [software rot][software-rot].
 
 Rule #3: Crash Early
 

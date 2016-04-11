@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "10 luật để trở thành một lập trình viên tốt"
+title: 10 luật để trở thành một lập trình viên tốt
 date: "2016-04-08 01:47:54 +0700"
+published: true
 ---
+
 
 Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
 
@@ -24,13 +26,11 @@ Khái niệm "Những ô cửa sổ vỡ" được rút ra từ lĩnh vực tộ
 
 Trong việc phát triển phần mềm, những ô cửa vỡ là những thiết kệ ko tốt, những quyết định sai và cả những dòng code tệ hại. Nếu bạn không fix những lỗi này ngay khi nhận thấy chúng, bạn sẽ nhanh chóng rơi vào trạng thái gọi là [software rot][software-rot].
 
-Rule #3: Crash Early
+**Rule #3: Crash Early - Đổ vỡ sớm**
 
-It’s always better to make your code crash as soon as possible. Using return values (error codes) to notify a calling component about an error is a very bad idea. Eventually, a component will ignore that value, that means that an error can occur and silently be ignored.
+Luôn là tốt hơn khi để cho code đổ vỡ sớm. Sử dụng những giá trị trả về (mã lỗi) để notify cho một component đang được gọi về một lỗi là một ý tưởng tồi. Bởi vì, một component sẽ bỏ qua giá trị này, điều đó có nghĩa là lỗi có thể xảy ra và bị bỏ qua trong im lặng mà ko được xử lý. 
 
-As the saying goes: Dead software don’t lie.
-
-Rule #4: Use tracer bullets
+**Rule #4: Use tracer bullets**
 
 The idea of tracer bullets is to get things up in production as soon as you can.
 

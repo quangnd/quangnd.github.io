@@ -32,13 +32,13 @@ Luôn là tốt hơn khi để cho code đổ vỡ sớm. Sử dụng những gi
 
 **Rule #4: Use tracer bullets**
 
-The idea of tracer bullets is to get things up in production as soon as you can.
+Ý tưởng của luật này là triển khai ứng dụng của bạn lên môi trường production (môi trường chạy thật) sớm nhất có thể.
 
-We speak also about code that glows in the dark. When you have a new projet in mind, try to get to the point where you can ship something in production. Just make it as simple as possible, don’t try to envision everything in the first place. The first target is to have a simple, consistent package that works, in production. After that, you’ll be able to upgrade that package iteratively.
+Chúng ta cũng nói chuyện về những đoạn code "phát sáng trong bóng tối". Khi bạn có một dự án mới, cố gắng thực hiện ở mức độ nhất định để có thể triển khai trên môi trường production. Làm nó đơn giản ở mức tối thiểu, đừng cố gắng hình dung mọi thứ trong giai đoạn đầu tiên. Mục tiêu trước nhất là có một gói phần mềm đơn giản, chắc chắn có thể hoạt động, trong môi trường prodction. Sau đó, bạn có thể cập nhật gói phần mềm này một cách thường xuyên.  
 
 The tracer bullet is your first package, by reducing its feature set, you’ll focus on the essential: production/packaging/deployment issues. Other features and enhancements will come later on. This strategy has also the benfit of reducing the risk of premature optimizations (which is the root of all evil, as you may already know).
 
-Rule #5: Write Shy Code
+**Rule #5: Write Shy Code**
 
 Shy code is basically what we call the Law of Demeter. It could be described as the Principle of Least Knowledge, as Wikipedia explains:
 

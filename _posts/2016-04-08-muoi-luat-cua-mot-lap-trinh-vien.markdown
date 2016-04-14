@@ -36,7 +36,7 @@ Luôn là tốt hơn khi để cho code đổ vỡ sớm. Sử dụng những gi
 
 Chúng ta cũng nói chuyện về những đoạn code "phát sáng trong bóng tối". Khi bạn có một dự án mới, cố gắng thực hiện ở mức độ nhất định để có thể triển khai trên môi trường production. Làm nó đơn giản ở mức tối thiểu, đừng cố gắng hình dung mọi thứ trong giai đoạn đầu tiên. Mục tiêu trước nhất là có một gói phần mềm đơn giản, chắc chắn có thể hoạt động, trong môi trường prodction. Sau đó, bạn có thể cập nhật gói phần mềm này một cách thường xuyên.  
 
-The tracer bullet is your first package, by reducing its feature set, you’ll focus on the essential: production/packaging/deployment issues. Other features and enhancements will come later on. This strategy has also the benfit of reducing the risk of premature optimizations (which is the root of all evil, as you may already know).
+Tracer bullet là gói đầu tiên của bạn, bằng cách giảm bớt các chức năng, bạn sẽ tập trung vào vấn đề thực hiện tại môi trường thật/đóng gói/triển khai. Các đặc điểm và tính năng khác sẽ đến sau. Chiến lược này cũng có lợi trong việc giảm các rủi ro của vấn đề tối ưu hóa sớm (thường được gọi là [root of all evil][the-root-of-all-evil])
 
 **Rule #5: Write Shy Code**
 

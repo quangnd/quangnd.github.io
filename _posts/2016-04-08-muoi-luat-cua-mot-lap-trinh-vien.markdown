@@ -52,7 +52,7 @@ Only talk to your immediate friends.
 
 Respecting the Law of Demeter when writing code enhance maintainability and reduce code duplication (so yes, that helps you repsect rule #1).
 
-Rule #6: Configure, don’t integrate
+**Rule #6: Configure, don’t integrate**
 
 Details mess up our pristine code, they change frequently. Every change to the code is a risk to break the system. To avoid that, you should get the details out of the code, in configuration files. Configurable code is called Â« soft code Â», it’s adaptable to change.
 

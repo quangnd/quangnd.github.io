@@ -40,16 +40,14 @@ Tracer bullet là gói đầu tiên của bạn, bằng cách giảm bớt các 
 
 **Rule #5: Write Shy Code**
 
-Shy code is basically what we call the Law of Demeter. It could be described as the Principle of Least Knowledge, as Wikipedia explains:
+Shy code đước biết đến với thuật ngữ the [Law of Demeter][law-of-demeter]. Nó có thể được miêu tả như là một nguyên tắc của tri thức tối thiểu, Wikipedia giải thích như sau:
 
+Hướng dẫn […] được tổng quát ngắn gọn theo những cách sau:
 
-The guideline […] can be succinctly summarized in one of the following ways:
-
-Each unit should have only limited knowledge about other units: only units “closely” related to the current unit.
-Each unit should only talk to its friends; don’t talk to strangers.
-Only talk to your immediate friends.
+- Each unit should have only limited knowledge about other units: only units “closely” related to the current unit.
+- Each unit should only talk to its friends; don’t talk to strangers.
+- Only talk to your immediate friends.
  
-
 Respecting the Law of Demeter when writing code enhance maintainability and reduce code duplication (so yes, that helps you repsect rule #1).
 
 **Rule #6: Configure, don’t integrate**

@@ -50,9 +50,9 @@ Hướng dẫn […] được tổng quát ngắn gọn theo những cách sau:
  
 Respecting the Law of Demeter when writing code enhance maintainability and reduce code duplication (so yes, that helps you repsect rule #1).
 
-**Rule #6: Configure, don’t integrate**
+**Rule #6: Configure, don’t integrate - Cấu hình, không tích hợp**
 
-Details mess up our pristine code, they change frequently. Every change to the code is a risk to break the system. To avoid that, you should get the details out of the code, in configuration files. Configurable code is called Â« soft code Â», it’s adaptable to change.
+Chi tiết sẽ làm lộn xộn code của bạn, chúng thay đổi thường xuyên (như các hằng số, chuỗi...). Mỗi thay đổi trong code tiềm ẩn nguy cơ phá vỡ hệ thống. Để loại trừ điều này, bạn nên đưa các chi tiết ra khỏi code, đặt chúng trong các file cấu hình. Code cấu hình còn được gọi là "soft code", nó  Every change to the code is a risk to break the system. To avoid that, you should get the details out of the code, in configuration files. Configurable code is called Â« soft code Â», nó thích nghi với sự thay đổi.
 
 Whenever you come to the point where you put details into your codebase, stop, and extract them out of it. The time you spend now will pay-off ten times in the future.
 

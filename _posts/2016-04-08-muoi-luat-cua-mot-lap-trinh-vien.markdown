@@ -54,21 +54,23 @@ Respecting the Law of Demeter when writing code enhance maintainability and redu
 
 Chi tiết sẽ làm lộn xộn code của bạn, chúng thay đổi thường xuyên (như các hằng số, chuỗi...). Mỗi thay đổi trong code tiềm ẩn nguy cơ phá vỡ hệ thống. Để loại trừ điều này, bạn nên đưa các chi tiết ra khỏi code, đặt chúng trong các file cấu hình. Code cấu hình còn được gọi là "soft code", nó  Every change to the code is a risk to break the system. To avoid that, you should get the details out of the code, in configuration files. Configurable code is called Â« soft code Â», nó thích nghi với sự thay đổi.
 
-Whenever you come to the point where you put details into your codebase, stop, and extract them out of it. The time you spend now will pay-off ten times in the future.
+Bát cứ khi nào bạn phải sử dụng chi tiết trong code của mình, dừng lại và đặt chúng ra ngoài. Một chút thời gian lúc này sẽ đem lại thời gian hữu ích gấp 10 lần trong tương lai.
 
-Rule #7: Refactor Early, refactor often
+**Rule #7: Refactor Early, refactor often* - Cải tiến code sớm, cải tiến thường xuyên*
 
-You should refactor, yes, but when? Here are the moments when refactoring is a good idea:
+Bạn nên cải tiến code, nhưng khi nào? Sau đây là một vài gợi ý: 
 
-You’ve found some duplication you want to remove (again, rule #1!)
-You want to extract details out of the code (rule #6)
-You see a way to generalize something in your code.
-Also, don’t refactor blindly, if you go into a refactoring session it’s very important to do it well, or it will come back to bite you:
+- Bạn tìm thấy một vài đoạn code trùng lặp có thể xóa (theo luật #1!)
+- Bạn muốn dưa code chi tiết ra bên ngoài (luật #6)
+- Bạn nhìn thấy cách thức để khái quát hóa (generalize) một vài thứ trong code.
 
-Don’t refactor and add functionality at the same time
-Make sure you have tests to avoid regressions
-Take short, deliberate steps. Change one thing at a time.
-Rule #8: Design to test
+Tuy nhiên, đừng refactor một cách mù quáng, bạn cần phải tỉnh táo và cẩn thận khi thực hiện những cải thiện, nếu sơ suất, việc này sẽ gây ra hậu quả trái ngược với mong muốn của bạn:
+
+- Không nên thực hiện thêm chức năng và cải thiện cùng thời điểm.
+- Chắc chắn rằng bạn phải test lại để tránh chức năng hoạt động ko như mong muốn.
+- Thực hiện những phần nhỏ, có chủ ý. Một phần tại một thời điểm.
+
+**Rule #8: Design to test - Thiết kế khả test**
 
 If you’re a perfectionist, you might write your tests before the code (it’s called Test-Driven Development) but it’s not mandatory. A matter of taste I’d say. What is important though is that you always keep tests in mind when you write the code. Respecting the Law of Demeter (rule #5) will definitely help, because a good encapsulation always leads to testable code.
 

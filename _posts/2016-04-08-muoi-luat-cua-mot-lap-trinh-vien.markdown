@@ -72,11 +72,11 @@ Tuy nhiên, đừng refactor một cách mù quáng, bạn cần phải tỉnh t
 
 **Rule #8: Design to test - Thiết kế khả test**
 
-If you’re a perfectionist, you might write your tests before the code (it’s called Test-Driven Development) but it’s not mandatory. A matter of taste I’d say. What is important though is that you always keep tests in mind when you write the code. Respecting the Law of Demeter (rule #5) will definitely help, because a good encapsulation always leads to testable code.
+Nếu bạn là một người ưa sự hoàn hảo, có lẽ bạn sẽ viết test trước khi code (phương hướng tiếp cận này còn được gọi là Test-Driven Development), nhưng điều này là không đơn giản. Điều quan trọng nhất tôi muốn đề cập là bạn cần phải luôn hướng code của mình tới mục tiêu là khả test - nói cách khác là viết code sao cho dễ test nhất. Dựa theo luật 5 - Law of Demeter sẽ giúp bạn luôn viết code có tính đóng gói tốt, từ đó dẫn tới việc test thuận lợi hơn.
 
-If a part of the code is difficult (or impossible) to test, you need to refactor it to smaller components.
+Nếu một phần của code là khó (hoặc không thể) test, bạn cần cải thiện code (refactor) tới những thành phần nhỏ hơn.
 
-Rule #9: if you’ve found a bug, write a test
+**Rule #9: if you’ve found a bug, write a test - Nếu bạn tìm thấy một bug, viết test**
 
 This is a very sane approach: whenever a bug is found in production, first thing to do is to write a test that reproduces the issue. That way you’ll be sure to understand the bug correctly before thinking at the fix and you’ll have a non-regression test that will make sure the bug won’t happen again.
 

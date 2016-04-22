@@ -80,7 +80,7 @@ Nếu một phần của code là khó (hoặc không thể) test, bạn cần c
 
 This is a very sane approach: whenever a bug is found in production, first thing to do is to write a test that reproduces the issue. That way you’ll be sure to understand the bug correctly before thinking at the fix and you’ll have a non-regression test that will make sure the bug won’t happen again.
 
-Rule #10: Know when to stop
+**Rule #10: Know when to stop - Biết khi nào nên dừng lại**
 
 Programmers are like painters, they build a picture of some part of the world out of their mind. The major difficulty here is not know when, or where to stop. Keep in mind that perfect software does not exist (no, you won’t be able to write it, no matter how hard you try).
 

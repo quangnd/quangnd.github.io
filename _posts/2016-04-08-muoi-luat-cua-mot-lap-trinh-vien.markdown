@@ -83,10 +83,10 @@ This is a very sane approach: whenever a bug is found in production, first thing
 **Rule #10: Know when to stop - Biết khi nào nên dừng lại**
 
 Những lập trình viên giống những người hoạ sỹ, họ vẽ nên những bức tranh ở bên ngoài tâm trí của họ. Điểm cốt yếu ở dây là họ không biết khi nào, hay tại đâu họ nên dừng lại. Hãy nhớ là phần mềm hoàn hảo không tồn tại (Chính xác là bạn không thể viết được một phần mềm hoàn hảo, cho dù bạn có cố gắng thế nào chăng nữa)
-Programmers are like painters, they build a picture of some part of the world out of their mind. The major difficulty here is not know when, or where to stop. Keep in mind that perfect software does not exist (no, you won’t be able to write it, no matter how hard you try).
+
 
 Khi nào một bức tranh được hoàn thiện? Chỉ người hoạ sỹ có câu trả lời. Bạn là nghệ sĩ tạo nên những dòng code, và bạn biết khi nào nên dừng lại!
-When is a painting finished? Only the painter can say so. You are the painter of your code, know when to stop.
+
 
 Source: http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programmer/
 

@@ -18,7 +18,7 @@ Dưới đây là 10 luật thú vị rút ra từ cuốn sách, nếu một l�
 
 This will increase your maintenance capabilities and lower bugs proliferation.
 
-Rule #2: Fix broken windows - Sửa những ô cửa vỡ
+**Rule #2: Fix broken windows - Sửa những ô cửa vỡ**
 
 Khái niệm "Những ô cửa sổ vỡ" được rút ra từ lĩnh vực tội phạm học:
 
@@ -56,7 +56,7 @@ Chi tiết sẽ làm lộn xộn code của bạn, chúng thay đổi thường 
 
 Bát cứ khi nào bạn phải sử dụng chi tiết trong code của mình, dừng lại và đặt chúng ra ngoài. Một chút thời gian lúc này sẽ đem lại thời gian hữu ích gấp 10 lần trong tương lai.
 
-**Rule #7: Refactor Early, refactor often* - Cải tiến code sớm, cải tiến thường xuyên*
+**Rule #7: Refactor Early, refactor often- Cải tiến code sớm, cải tiến thường xuyên**
 
 Bạn nên cải tiến code, nhưng khi nào? Sau đây là một vài gợi ý: 
 

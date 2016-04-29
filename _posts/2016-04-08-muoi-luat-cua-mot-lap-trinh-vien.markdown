@@ -22,7 +22,7 @@ This will increase your maintenance capabilities and lower bugs proliferation.
 
 Khái niệm "Những ô cửa sổ vỡ" được rút ra từ lĩnh vực tội phạm học:
 
-> Consider a building with a few broken windows. If the windows are not repaired, the tendency is for vandals to break a few more windows. Eventually, they may even break into the building, and if it’s unoccupied, perhaps become squatters.
+> Hãy xem một tòa nhà với một vài cánh cửa sổ vỡ. Nếu những cánh cửa sổ không được sửa, xu hướng tất yếu là càng ngày càng có nhiều cửa sổ bị phá hoại hơn. Cuối cùng, một số người có thể đột nhập vào tòa nhà, nếu nó còn trống, tòa nhà sẽ trở thành một nơi bị xâm chiếm.
 
 Trong việc phát triển phần mềm, những ô cửa vỡ là những thiết kệ ko tốt, những quyết định sai và cả những dòng code tệ hại. Nếu bạn không fix những lỗi này ngay khi nhận thấy chúng, bạn sẽ nhanh chóng rơi vào trạng thái gọi là [software rot][software-rot].
 
@@ -83,7 +83,6 @@ This is a very sane approach: whenever a bug is found in production, first thing
 **Rule #10: Know when to stop - Biết khi nào nên dừng lại**
 
 Những lập trình viên giống những người hoạ sỹ, họ vẽ nên những bức tranh ở bên ngoài tâm trí của họ. Điểm cốt yếu ở dây là họ không biết khi nào, hay tại đâu họ nên dừng lại. Hãy nhớ là phần mềm hoàn hảo không tồn tại (Chính xác là bạn không thể viết được một phần mềm hoàn hảo, cho dù bạn có cố gắng thế nào chăng nữa)
-
 
 Khi nào một bức tranh được hoàn thiện? Chỉ người hoạ sỹ có câu trả lời. Bạn là nghệ sĩ tạo nên những dòng code, và bạn biết khi nào nên dừng lại!
 

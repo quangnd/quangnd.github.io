@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some best 30 day challenges
+title: Thay đổi cuộc sống với các thách thức 30 ngày
 date: "2016-04-08 01:47:54 +0700"
 published: true
 ---
@@ -22,4 +22,4 @@ Some best 30 day challenges YOU can take to bring some change in my life
 **Get Up Early.** Develop the the habit to get up early and not to stay in your bed for long. Do the most important tasks from your list in the very morning and enjoy the rest of a day doing the things you love.
 
 
-Inspired from Max Lukominskyi
+*Inspired from Max Lukominskyi*

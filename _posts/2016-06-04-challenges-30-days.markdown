@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thay đổi cuộc sống với các thách thức 30 
+title: Thay đổi cuộc sống với các thách thức 30 ngày 
 date: "2016-06-04 01:47:54 +0700"
 published: true
 ---

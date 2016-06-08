@@ -9,7 +9,7 @@
 title: A self-taught learner...
 email: quangnd.edu@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm learning to become a writter. I will write about technology, programming
+  I'm learning to become a writter. I will write about technology, programming, 
   music, running, books, life...Will you follow me?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://quangnd.github.io" # the base hostname & protocol for your site
@@ -25,5 +25,5 @@ paginate_path: /page:num
 
 # Build settings
 markdown: kramdown
-
+  
 

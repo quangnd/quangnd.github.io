@@ -24,3 +24,9 @@ Blog detail page examples:
 4. https://simpleprogrammer.com/2016/08/04/spend-time-right-way/
 
 ===
+
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+====
+Change header of home page
+Edit image name at pages/pages-root-folder/index.md

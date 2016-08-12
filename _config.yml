@@ -8,16 +8,16 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Mun is here'
+title: 'Cùng học lập trình'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'A learners blog'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'A learner blog javascript, nodejs, reactjs...'
+description: 'Blog học lập trình với hệ sinh thái Javascript, NodeJS and React...'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: 'Created with passion.'
+credits: 'Created with passion by Mun <3'
 
 # Main author of the website
 # See > authors.yml

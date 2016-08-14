@@ -1,32 +1,32 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/quangnd
   class: icon-github
   title: Code und mehr...
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
-
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: http://twitter.com/quangndedu
   class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: "Follow me on Twitter"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: Facebook
+  url: https://www.facebook.com/groups/free.code.camp.hanoi/
+  class: icon-facebook
+  title: "Follow FreeCodeCamp on Facebook"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
-  class: icon-googleplus
-  title: "YouTube Google+"
+#- name: YouTube
+#  url: http://www.youtube.com/PhlowMedia
+#  class: icon-youtube
+#  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+#- name: Mixcloud
+#  url: http://www.mixcloud.com/phlow/
+#  class: icon-cloud
+#  title: "Mixe, was sonst?"
+
+# - name: Phlow YouTube Google+
+#  url: https://plus.google.com/u/0/+Phlow
+#  class: icon-googleplus
+#  title: "YouTube Google+"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/

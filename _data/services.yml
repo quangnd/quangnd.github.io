@@ -1,6 +1,6 @@
-- menu_name: "Services"
+- menu_name: "Dịch vụ"
 
-- name: "Contact"
+- name: "Liên hệ"
   url: "/contact/"
   title: "Contact"
 

@@ -11,7 +11,7 @@ widget1:
   title: "Blog & Portfolio"
   url: 'http://quangnd.com/blog/'
   image: widget-1-302x182.jpg
-  text: 'Blog của một lập trình viên viết cho những lập trình viên. Mình sẽ giới thiệu những bài viết hướng dẫn về công nghệ, giới thiệu và đánh giá sách, cùng những phương pháp học tập, làm việc...'
+  text: 'Blog của một lập trình viên viết cho những lập trình viên. Mình sẽ giới thiệu những bài viết hướng dẫn về công nghệ, giới thiệu và đánh giá sách, cùng những phương pháp học tập, làm việc hiệu quả.'
 widget2:
   title: "Có gì tại blog này?"
   url: 'http://quangnd.com/info/'
@@ -22,7 +22,7 @@ widget3:
   title: "Tài nguyên hấp dẫn"
   url: 'https://github.com/quangnd/'
   image: widget-github-303x182.jpg
-  text: '<em>Rất nhiều công cụ hỗ trợ lập trình.</em><br/>1. <a href="http://regexone.com" target="_blank">Học regular expression.</a><br/>2. <a href="http://commonmark.org/help/" target="_blank">Học viết với markdown.</a><br/>3. <a href="www.codewars.com/r/YCdOTA" target="_blank">Lập trình cơ bản<br/>4. <a href="www.freecodecamp." target="_blank">Fullstack Dev với FreeCodeCamp</a><br/>'
+  text: '<em>Rất nhiều công cụ hỗ trợ lập trình.</em><br/>1. <a href="http://regexone.com" target="_blank">Học regular expression.</a><br/>2. <a href="http://commonmark.org/help/" target="_blank">Học viết với markdown.</a><br/>3. <a href="http://codewars.com/r/YCdOTA" target="_blank">Lập trình cơ bản.</a><br/>4. <a href="http://freecodecamp.com" target="_blank">Fullstack Dev với FreeCodeCamp.</a><br/>'
 
 # Note By Mun
 # ===========

@@ -1,9 +1,10 @@
 - title: Trang chủ 
   url: "/"
   side: left
-
+  icon: home
+  
 - title: Học lập trình
-  url: "/blog/"
+  url: "/progarmming/post-left-sidebar"
   side: left
 
 - title: Sách & Review

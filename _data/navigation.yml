@@ -2,29 +2,32 @@
   url: "/"
   side: left
   icon: home
-  
-- title: Học lập trình
-  url: "/blog/"
-  side: left
 
-- title: Sách & Review
-  url: "/design/grid/"
-  side: left
-
-- title: Chuyện cuộc sống 
-  url: "/design/post-right-sidebar/"
-  side: left
-
-- title: Thư giãn & nghệ thuật 
-  url: "/design/page-fullwidth/"
-  side: left
-
-- title: Tôi là ai?
+- title: Công việc
   url: "/design/portfolio/"
+  side: left 
+  dropdown:
+  - title: "CV (Tiếng Việt)"
+    url: "/design/grid/"
+  - title: "CV (English)"
+    url: "/design/typography/typography/"
+  - title: "Kinh nghiệm"
+    url: "/design/typography/typography/"
+
+- title: Dự án đã thực hiện
+  url: "/blog/blogarchive"
+  side: left
+
+- title: Blog
+  url: "/blog/"
   side: left
 
 - title: "Tìm kiếm"
   url: "/search/"
+  side: right
+
+- title: "Nói về mình"
+  url: "/about/"
   side: right
 
 - title: "Liên hệ"

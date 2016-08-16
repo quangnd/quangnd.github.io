@@ -1,23 +1,23 @@
 ---
 layout: page
-subheadline: 'Articles in Category'
+subheadline: 'Các bài viết trong chuyên mục'
 ---
 {{ content }}
-
 {% assign category_posts = site.categories[page.category] %}
 {% if category_posts %}
 	{% for post in category_posts %}
 		{% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
 		{% if forloop.first %}
-			<h2 id="{{post_year}}">{{ post_year }}</h2><ul>
+			<h2 id="{{post_year}}">{{ post_year }}</h2>
+			<ul class="no-bullet">
 		{% else %}
 			{% assign previous_index = forloop.index0 | minus: 1 %}
 			{% capture previous_post_year %}{{ category_posts[previous_index].date | date: '%Y' }}{% endcapture %}
 			{% if post_year != previous_post_year %}
-				</ul><h2 id="{{post_year}}">{{ post_year }}</h2><ul>
+				</ul><h2 id="{{post_year}}">{{ post_year }}</h2><ul class="no-bullet">
 			{% endif %}
 		{% endif %}
-		<li>{% include snippets/post_link.html post=post %}</li>
+		<li class="icon-chevron-right">{% include snippets/post_link.html post=post %}</li>
 
 		{% if forloop.last %}
 			</ul>

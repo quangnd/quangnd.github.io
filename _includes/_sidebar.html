@@ -1,13 +1,8 @@
 <aside>
-<div class="panel radius">
-		{% assign tags_url = site.baseurl | append: '/blog/tags/' %}
-		<h3><a href="{{ tags_url }}">Tags</a></h3>
-		{% include tag_cloud.html baseurl=tags_url %}
-	</div>
 
 	<div class="panel radius">
 		{% assign categories_url = site.baseurl | append: '/blog/category/' %}
-		<h3><a href="{{ categories_url }}">Chủ đề</a></h3>
+		<h3><a href="{{ categories_url }}">Chuyên mục</a></h3>
 		<ul class="no-bullet">
 		{% for category in site.categories %}
 			{% assign category_key = category[0] %}
@@ -40,6 +35,12 @@
 		<p class="text-left">
 			A nice picture ^^
 		</p>
+	</div>
+
+	<div class="panel radius">
+		{% assign tags_url = site.baseurl | append: '/blog/tags/' %}
+		<h3><a href="{{ tags_url }}">Tags</a></h3>
+		{% include tag_cloud.html baseurl=tags_url %}
 	</div>
 
 </aside>

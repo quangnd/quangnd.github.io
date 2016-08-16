@@ -1,17 +1,16 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: Đây là subheadline
-title:  "Nội dung bài viết căn giữa site"
+title:  "Nội dung bài viết full width"
 teaser: "Đây là ví dụ nội dung bài viết khi chọn xem chi tiết."
 breadcrumb: true
 tags:
-    - post format
+    - agile
 categories:
     - programming
 header:
     title: Đây là text được chèn vào ảnh
     background-color: "#EFC94C;"
-#    pattern: pattern_concrete.jpg
     image_fullwidth: unsplash_brooklyn-bridge_header.jpg
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/

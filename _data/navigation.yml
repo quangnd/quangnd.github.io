@@ -4,7 +4,7 @@
   icon: home
   
 - title: Học lập trình
-  url: "/progarmming/post-left-sidebar"
+  url: "/blog/"
   side: left
 
 - title: Sách & Review

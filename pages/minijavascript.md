@@ -54,7 +54,7 @@ permalink: "/minijavascript/"
 <div class="row t60">
      <div class="medium-6 columns b30">
         <a href="http://codepen.io/quangnd/full/XXRNmB/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/Tictactoe.png" alt="Tic Tac Toe with AI" border="1">
+              <img src="{{ site.urlimg }}FreeCodeCamp/TicTacToe.png" alt="Tic Tac Toe with AI" border="1">
         </a>
         <h3 class="projectsDescription">Tic Tac Toe with AI</h3>
     </div><!-- /.medium-6.columns -->

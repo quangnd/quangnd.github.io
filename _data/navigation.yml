@@ -15,8 +15,15 @@
     url: "/design/typography/typography/"
 
 - title: Dự án đã thực hiện
-  url: "/blog/blogarchive"
+  url: ""
   side: left
+  dropdown:
+  - title: "Mini Javascript"
+    url: "/minijavascript/"
+  - title: "NodeJS API"
+    url: "/nodeapi/"
+  - title: "Fullstack Javascript projects"
+    url: "/fullstack/"
 
 - title: Blog
   url: "/blog/"

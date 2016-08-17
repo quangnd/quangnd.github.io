@@ -54,14 +54,14 @@ permalink: "/minijavascript/"
 <div class="row t60">
      <div class="medium-6 columns b30">
         <a href="http://codepen.io/quangnd/full/XXRNmB/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/tictactoe.png" alt="Tic Tac Toe with AI" border="1">
+              <img src="{{ site.urlimg }}FreeCodeCamp/Tictactoe.png" alt="Tic Tac Toe with AI" border="1">
         </a>
         <h3 class="projectsDescription">Tic Tac Toe with AI</h3>
     </div><!-- /.medium-6.columns -->
 
      <div class="medium-6 columns b30">
         <a href="http://codepen.io/quangnd/full/dGzGNV/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/simon.png" alt="Simon game">
+              <img src="{{ site.urlimg }}FreeCodeCamp/Simon.png" alt="Simon game">
         </a>
         <h3 class="projectsDescription"> Simon game</h3>
     </div><!-- /.medium-6.columns -->

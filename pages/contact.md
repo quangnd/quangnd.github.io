@@ -1,12 +1,16 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+title: "Liên hệ"
+meta_title: "Liên hệ"
+teaser: "Bạn có thông tin muốn chia sẻ với tôi?"
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
+Vui lòng gửi email cho tôi tới địa chỉ **quangnd.edu@gmail.com**. Mỗi ý kiến đóng góp của bạn sẽ giúp tôi xây dựng nội dung website để phục vụ bạn tốt hơn.
 
- [1]: http://www.wufoo.com/
+Follow me trên Twitter [@quangndedu](http://twitter.com/quangndedu)
+
+Hoặc tham gia nhóm học tập [FreeCodeCamp Hà Nội](https://www.facebook.com/groups/free.code.camp.hanoi/) trên Facebook.
+
+Trân trọng cám ơn!
+

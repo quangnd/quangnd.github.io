@@ -17,7 +17,7 @@ header:
 ---
 *Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 
-![This is demo image]({{site.baseurl}}/images/homepage_typography.jpg)
+![This is demo image]({{ site.urlimg }}homepage_typography.jpg)
 
 Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
 

@@ -6,7 +6,7 @@ permalink: "/about/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-## Về website 
+## Lựa chọn công nghệ
 
 Đây là một trang web dựa trên [Jekyll](http://https://jekyllrb.com) - một nền tảng blog đơn giản dựa trên việc tạo ra các trang HTML tĩnh (không sử dụng cơ sở dữ liệu), nội dung chủ yếu được biên soạn dựa vào Markdown và text đơn thuần.
 

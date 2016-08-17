@@ -2,7 +2,7 @@
 layout: page-fullwidth
 subheadline: Đây là subheadline
 title:  "Nội dung bài viết full width"
-teaser: "Đây là ví dụ nội dung bài viết khi chọn xem chi tiết."
+teaser: "Đây là ví dụ nội dung bài viết khi chọn xem chi tiết. Đây là teaser của bài viết được thể hiện ở trang chủ. Hi vọng bạn sẽ có những phút giây vui vẻ ở đây."
 breadcrumb: true
 tags:
     - agile

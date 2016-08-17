@@ -8,21 +8,21 @@ permalink: "/nodeapi/"
 <div class="row t30">
     <div class="medium-4 columns">
         <a href="https://timestamp-mun.herokuapp.com/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/nodeapi1.png" alt="Timestamp microservice">
+              <img src="{{ site.urlimg }}FreeCodeCamp/NodeAPI1.png" alt="Timestamp microservice">
         </a>
         <h3 class="projectsDescription"> Timestamp microservice</h3>
     </div><!-- /.medium-4.columns -->
 
      <div class="medium-4 columns">
         <a href="https://frozen-tor-18939.herokuapp.com/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/nodeapi2.png" alt="Request Header Parser Microservice Complete">
+              <img src="{{ site.urlimg }}FreeCodeCamp/NodeAPI2.png" alt="Request Header Parser Microservice Complete">
         </a>
         <h3 class="projectsDescription"> Request Header Parser Microservice Complete  </h3>
     </div><!-- /.medium-4.columns -->
 
      <div class="medium-4 columns">
         <a href="https://shortenurl-mun.herokuapp.com/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/nodeapi3.png" alt="URL Shortener Microservice">
+              <img src="{{ site.urlimg }}FreeCodeCamp/NodeAPI3.png" alt="URL Shortener Microservice">
         </a>
         <h3 class="projectsDescription"> URL Shortener Microservice </h3>
     </div><!-- /.medium-4.columns -->
@@ -31,14 +31,14 @@ permalink: "/nodeapi/"
 <div class="row t30">
      <div class="medium-4 columns">
         <a href="https://imagesearch-mun.herokuapp.com/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/nodeapi4.png" alt="Image Search Microservice">
+              <img src="{{ site.urlimg }}FreeCodeCamp/NodeAPI4.png" alt="Image Search Microservice">
         </a>
         <h3 class="projectsDescription"> Image Search Microservice </h3>
     </div><!-- /.medium-4.columns -->
 
       <div class="medium-4 columns">
         <a href="https://file-metadata-mun.herokuapp.com/" target="_blank">
-              <img src="{{ site.urlimg }}FreeCodeCamp/nodeapi5.png" alt="File Uploaded Metadata Microservice ">
+              <img src="{{ site.urlimg }}FreeCodeCamp/NodeAPI5.png" alt="File Uploaded Metadata Microservice ">
         </a>
         <h3 class="projectsDescription"> File Uploaded Metadata Microservice </h3>
     </div><!-- /.medium-4.columns --> 

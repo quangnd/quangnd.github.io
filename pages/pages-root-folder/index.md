@@ -6,22 +6,22 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_5.jpg
+  image_fullwidth: header_frontpage1.jpg
 widget1:
-  title: "Blog & Portfolio"
+  title: "Blog của người tự học"
   url: 'http://quangnd.com/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Blog của một lập trình viên viết cho những lập trình viên. Mình sẽ giới thiệu những bài viết hướng dẫn về công nghệ, giới thiệu và đánh giá sách, cùng những phương pháp học tập, làm việc hiệu quả.'
+  image: widget1.png
+  text: 'Tôi đã dành bảy năm để lập trình. Tôi yêu lập trình. Bạn có thể tìm thấy nhiều những dự án, ứng dụng nhỏ trên website. Hoặc nếu muốn, hãy dành chút thời gian đọc CV của tôi.'
 widget2:
   title: "Có gì tại blog này?"
   url: 'http://quangnd.com/info/'
-  image: start-video-feeling-responsive-302x182.jpg
+  image: widget2.png
   text: '<em>Rất nhiều thứ hay ho.</em><br/>1. Bài viết hướng dẫn học lập trình :)<br/>2. Phương pháp học tập, làm việc hiệu quả<br/>4. Giới thiệu và đánh giá sách.<br/>5. Thảo luận & sẻ chia.'
   
 widget3:
-  title: "Tài nguyên hấp dẫn"
+  title: "Tài nguyên đã lựa chọn"
   url: 'https://github.com/quangnd/'
-  image: widget-github-303x182.jpg
+  image: humans.png
   text: '<em>Rất nhiều công cụ hỗ trợ lập trình.</em><br/>1. <a href="http://regexone.com" target="_blank">Học regular expression.</a><br/>2. <a href="http://commonmark.org/help/" target="_blank">Học viết với markdown.</a><br/>3. <a href="http://codewars.com/r/YCdOTA" target="_blank">Lập trình cơ bản.</a><br/>4. <a href="http://freecodecamp.com" target="_blank">Fullstack Dev với FreeCodeCamp.</a><br/>'
 
 # Note By Mun

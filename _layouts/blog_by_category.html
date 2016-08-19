@@ -27,7 +27,7 @@ subheadline: 'Các bài viết trong chuyên mục'
 	<p>There are no posts in this category.</p>
 {% endif %}
 
-<h2 id="other">Other categories</h2>
+<h2 id="other">Chuyên mục khác</h2>
 <ul class="quick-links">
 {% for other_category in site.pages %}
 	{% if other_category.category and other_category.category != page.category %}
@@ -39,4 +39,4 @@ subheadline: 'Các bài viết trong chuyên mục'
 	{% endif %}
 {% endfor %}
 </ul>
-<a href="{{ site.baseurl }}/blog/category/">See all posts in all categories</a>
+<a href="{{ site.baseurl }}/blog/category/">Xem tất cả bài viết hiện có</a>

@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+# comments: false
 subheadline: Đây là subheadline
 title:  "Nội dung bài viết full width"
 teaser: "Đây là ví dụ nội dung bài viết khi chọn xem chi tiết. Đây là teaser của bài viết được thể hiện ở trang chủ. Hi vọng bạn sẽ có những phút giây vui vẻ ở đây."
@@ -9,7 +10,7 @@ tags:
 categories:
     - programming
 header:
-    title: Đây là text được chèn vào ảnh
+    title: :)
     background-color: "#EFC94C;"
     image_fullwidth: unsplash_brooklyn-bridge_header.jpg
     caption: This is a caption for the header image with link

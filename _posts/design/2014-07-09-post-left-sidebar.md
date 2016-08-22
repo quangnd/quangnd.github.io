@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 sidebar: left
 subheadline: Templates
 title:  "Page/Post With Left Sidebar"
@@ -8,7 +9,7 @@ breadcrumb: true
 tags:
     - post format
 categories:
-    - archives
+    - design
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg

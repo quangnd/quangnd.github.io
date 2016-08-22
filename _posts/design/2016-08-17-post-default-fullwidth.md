@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+published: false
 # comments: false
 subheadline: Đây là subheadline
 title:  "Nội dung bài viết full width"

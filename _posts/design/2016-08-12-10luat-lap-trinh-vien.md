@@ -1,9 +1,9 @@
 ---
 layout: page
 published: true
-subheadline: Đây là subheadline
-title:  "Nội dung bài viết căn giữa site"
-teaser: "Đây là ví dụ nội dung bài viết khi chọn xem chi tiết."
+# subheadline: Đây là subheadline
+title:  "Mười luật một lập trình viên nên biết và tuân theo"
+teaser: "Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại."
 breadcrumb: true
 tags:
     - post format
@@ -11,7 +11,9 @@ categories:
     - programming
 header: no
 image:
-    title: gallery-example-1.jpg
+    title: article-image-1.jpg
+    caption: Hình ảnh này được cung cấp miễn phí tại unsplash.com
+    caption_url: https://unsplash.com/
 ---
 
 Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.

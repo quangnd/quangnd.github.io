@@ -28,6 +28,11 @@
 - title: Blog
   url: "/blog/"
   side: left
+  dropdown:
+  - title: "Các tài nguyên hữu ích"
+    url: "/resources/"
+  - title: "Bài viết lưu trữ"
+    url: "/blog/archive/"
 
 - title: "Tìm kiếm"
   url: "/search/"

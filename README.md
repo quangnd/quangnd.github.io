@@ -1,3 +1,5 @@
 # My personal blog based on Jekyll
 
-Updating...
+Link: http://quangnd.com
+
+About me...

@@ -20,11 +20,15 @@ Trong quá trình nghiên cứu và học hỏi các kỹ thuật lập trình v
 
 Suốt nhiều năm làm lập trình mình chưa thấy sự xuất hiện nào đẹp và tuyệt vời như React. Nó buộc chúng ta phải mở rộng tư duy về lập trình, thiết kế chương trình cũng như cách tiếp cận vấn đề.
 
+Hãy xem thử một ví dụ về React 
+
+[Mardown previewer](http://codepen.io/quangnd/full/vGOpQK/)
+
 Hi vọng các bạn sẽ tìm được những điều lý thú và tìm được vài lý do để học React cho bản thân mình qua blog chia sẻ này.
 
 # React là gì?
 
-React là một thư viện Javascript giúp bạn xây dựng tầng Views (thường được xem như là chữ V trong mô hình MVC). React giúp bạn xây dựng website hoàn toàn sử dụng Javascript (để thao tác với HTML), được tăng cường bởi VirtualDOM - thứ mà chúng ta sẽ tìm hiểu ngay sau đây.
+React là một thư viện Javascript giúp bạn xây dựng tầng Views (thường được xem như là chữ V trong mô hình MVC). React có thể xây dựng website hoàn toàn sử dụng Javascript (để thao tác với HTML), được tăng cường bởi VirtualDOM - thứ mà chúng ta sẽ tìm hiểu ngay sau đây.
 
 React nhỏ, nhưng có võ, hơn nữa thư viện này còn được một trong những ứng dụng mạng xã hội phức tạp nhất hiện nay là Facebook sử dụng. Bạn có nghĩ nó đáng để tìm hiểu không?
 

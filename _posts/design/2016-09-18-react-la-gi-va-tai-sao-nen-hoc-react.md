@@ -13,6 +13,7 @@ categories:
 header: no
 image:
     title: article-image-1.jpg
+    caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 ---
 

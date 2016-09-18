@@ -35,7 +35,7 @@ React nhỏ, nhưng có võ, hơn nữa thư viện này còn được một tro
 
 Dưới đây là những yếu tố cơ bản của React
 
-###1. Các component lưu trạng thái, có thể tái sử dụng
+### 1. Các component lưu trạng thái, có thể tái sử dụng
 
 Trong React, chúng ta xây dựng trang web sử dụng những thành phần (component) nhỏ. Chúng ta có thể tái sử dụng một component ở nhiều nơi, với các trạng thái hoặc các thuộc tính khác nhau, trong một component lại có thể chứa thành phần khác. Mỗi component trong React có một trạng thái riêng, có thể thay đổi, và React sẽ thực hiện cập nhật component dựa trên những thay đổi của trạng thái.
 
@@ -53,7 +53,7 @@ var CommentBox = React.createClass({
 });
 {% endhighlight %}
 
-###2. Phản ứng (React) khi có thay đổi
+### 2. Phản ứng (React) khi có thay đổi
 
 Khi trạng thái của một component thay đổi, những thay đổi này cần được thực hiện theo cách thức nào đó. Trong mô hình web truyền thống với DOM, chúng ta cần tạo lại mã HTML để thể hiện các đối tượng mới trên trang web, nói cách khác chúng ta cần tạo ra view mới khi trạng thái của component thay đổi. Với React, chúng ta không cần lo lắng về cách thức tạo ra view mới, React sẽ kiểm soát những thay đổi này và tự động update views khi cần thiết.
 
@@ -61,7 +61,7 @@ Khi trạng thái của một component thay đổi, những thay đổi này c�
 
 Bạn có thể thấy cách view thay đổi trong ví dụ todomvc ở đường link trên, khi người dùng chọn complete một nhiệm vụ, view đã được lập tức thay đổi.
 
-###3. DOM ảo (VirtualDOM)
+### 3. DOM ảo (VirtualDOM)
 
 Với React, chúng ta viết HTML sử dụng JavaScript. Chúng ta mượn khả năng linh hoạt của Javascript để tạo ra mã HTML phụ thuộc trên dữ liệu, đây là cách tiếp cận khác với kiểu mở rộng HTML (Enhancing HTML). Phương thức mở rộng HTML được một vài framework sử dụng, điển hình là Angular. Angular đã mở rộng HTML với các đặc điểm như vòng lặp, các câu lệnh điều kiện và một vài tiện ích khác.
 

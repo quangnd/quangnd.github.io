@@ -3,7 +3,7 @@ layout: page
 published: true
 # subheadline: Đây là subheadline
 title:  "Mười luật một lập trình viên nên biết và tuân theo"
-teaser: "Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại."
+teaser: "Bài viết này được lấy ý tưởng từ một cuốn sách nổi tiếng. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại."
 breadcrumb: true
 tags:
     - post format
@@ -15,8 +15,6 @@ image:
     caption: Hình ảnh này được cung cấp miễn phí tại unsplash.com
     caption_url: https://unsplash.com/
 ---
-
-Bài viết này được lấy ý tưởng từ [một cuốn sách nổi tiếng][pragmatic-programmer]. Rất nổi tiếng ở thế hệ tôi, nhưng có thể bạn chưa từng nghe nói tới. Nó xứng đáng được đọc, đọc lại và nhắc lại.
 
 Dưới đây là 10 luật thú vị rút ra từ cuốn sách, nếu một lập trình viên hiểu và thực hiện những điều này trong công việc hàng ngày, tôi khẳng định chẳng bao lâu anh ta sẽ trở thành một lập trình viên giỏi, viết code rõ ràng, đẹp và có tính tái sử dụng!
 
@@ -99,7 +97,7 @@ Những lập trình viên giống những người hoạ sỹ, họ vẽ nên n
 Khi nào một bức tranh được hoàn thiện? Chỉ người hoạ sỹ có câu trả lời. Bạn là nghệ sĩ tạo nên những dòng code, và bạn biết khi nào nên dừng lại!
 
 
-Source: http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programmer/
+Source: [http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programmer/]
 
 [the-root-of-all-evil]: http://c2.com/cgi/wiki?PrematureOptimization
 [law-of-demeter]: https://en.wikipedia.org/wiki/Law_of_Demeter
@@ -109,3 +107,4 @@ Source: http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programm
 [software-rot]: https://en.wikipedia.org/wiki/Software_rot
 [pragmatic-programmer]: https://pragprog.com/book/tpp/the-pragmatic-programmer
 [DRY]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programmer/] http://blog.sukria.net/2012/01/06/the-10-rules-of-the-pragmatic-programmer/

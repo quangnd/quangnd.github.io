@@ -69,7 +69,7 @@ Hãy nghĩ về việc bạn lấy dữ liệu từ server với AJAX, để x�
 
 Qui trình xử lý này được gọi với thuật ngữ **tree reconciliation**, và rất nhiều lập trình viên bày tỏ rằng đây là một trong những phát kiến tuyệt vời nhất trong lĩnh vực phát triển web kể từ ngày AJAX ra đời.
 
-Các tài nguyên tham khảo
+Các tài nguyên tham khảo:
 
 - [React offical page]
 - ReactJS succinctly book

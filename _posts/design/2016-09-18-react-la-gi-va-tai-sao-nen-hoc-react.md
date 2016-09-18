@@ -2,7 +2,7 @@
 layout: page
 published: true
 # subheadline: Đây là subheadline
-title:  "React là gì và tại bao bạn nên học React ngay bây giờ"
+title:  "React là gì?"
 teaser: "Sơ lược về ReactJS"
 breadcrumb: true
 tags:
@@ -19,7 +19,7 @@ image:
 
 Trong quá trình nghiên cứu và học hỏi các kỹ thuật lập trình với hệ sinh thái của Javascript và NodeJS, mình bắt gặp React - một công nghệ được phát triển và sử dụng bởi Facebook.
 
-Suốt nhiều năm làm lập trình mình chưa thấy sự xuất hiện nào đẹp và tuyệt vời như React. Nó buộc chúng ta phải mở rộng tư duy về lập trình, thiết kế chương trình cũng như cách tiếp cận vấn đề.
+Suốt nhiều năm làm lập trình mình chưa thấy sự xuất hiện nào đẹp và tuyệt vời như React. Nó buộc chúng ta phải mở rộng tư duy về lập trình, thiết kế chương trình cũng như cách tiếp cận vấn đề. Và như lời giới thiệu của Facebook, React sinh ra là để giải quyết những bài toán lớn và phức tạp.
 
 Hãy xem thử một ví dụ về React 
 
@@ -29,29 +29,51 @@ Hi vọng các bạn sẽ tìm được những điều lý thú và tìm đư�
 
 # React là gì?
 
-React là một thư viện Javascript giúp bạn xây dựng tầng Views (thường được xem như là chữ V trong mô hình MVC). React có thể xây dựng website hoàn toàn sử dụng Javascript (để thao tác với HTML), được tăng cường bởi VirtualDOM - thứ mà chúng ta sẽ tìm hiểu ngay sau đây.
+React là một thư viện Javascript giúp bạn xây dựng tầng Views (thường được xem như là chữ V trong mô hình MVC). React có thể xây dựng website hoàn toàn sử dụng Javascript (để thao tác với HTML), được tăng cường bởi VirtualDOM - thứ mà chúng ta sẽ tìm hiểu sau trong bài viết.
 
 React nhỏ, nhưng có võ, hơn nữa thư viện này còn được một trong những ứng dụng mạng xã hội phức tạp nhất hiện nay là Facebook sử dụng. Bạn có nghĩ nó đáng để tìm hiểu không?
 
 Dưới đây là những yếu tố cơ bản của React
 
-1. Reusable, composable, and stateful components
+1. Các component lưu trạng thái, có thể tái sử dụng
 
-In React, we build views using smaller components. We can reuse a single component in multiple places, with different states and properties, and components can contain other components. Every component in a React application has a private state that may change over time, and React will take care of updating the component's view when its state changes.
+Trong React, chúng ta xây dựng trang web sử dụng những thành phần (component) nhỏ. Chúng ta có thể tái sử dụng một thành phần ở nhiều nơi, với các trạng thái hoặc các thuộc tính khác nhau, trong một thành phần lại có thể chứa thành phần khác.
+In React, we build views using smaller components. Mỗi component trong React có một trạng thái riêng, có thể thay đổi, và React sẽ thực hiện cập nhật component dựa trên những thay đổi của trạng thái.
 
-2. The nature of reactive updates
+Một đoạn code tạo ra component CommentBox 
 
-React's name is the simple explanation for this concept. When the state of a component changes, those changes need to be reflected somewhere. For example, we need to regenerate the HTML views for the browser's Document Object Model (DOM) whenever their state changes. With React, we do not need to worry about how to reflect the state changes; React will simply react to the changes and automatically update the views when needed.
+```
+var CommentBox = React.createClass({
+  render: function() {
+    return (
+      <div className="commentBox">
+        Hello, world! I am a CommentBox.
+      </div>
+    );
+  }
+});
+```
 
-3.  The virtual representation of views in memory
+2. Phản ứng (React) khi có thay đổi
 
-With React, we write HTML using JavaScript. We rely on the power of JavaScript to generate HTML that depends on some data, rather than enhancing HTML to make it work with that data. Enhancing HTML is what other JavaScript frameworks usually do. For example, Angular extends HTML with features like loops, conditionals, and others.
-If we are receiving just the data from the server (with AJAX), we need something more than HTML to work with it, so it's either using an enhanced HTML, or using the power of JavaScript itself to generate the HTML. Both approaches have advantages and disadvantages, and React embraces the latter one, with the argument that the advantages are stronger than the disadvantages.
-Using JavaScript to render HTML allows React to have a virtual representation of HTML in memory (which is aptly named the virtual DOM), and React uses that to render the views virtually first. Every time a state changes and we have a new HTML tree that needs to be written back to the browser's DOM, instead of writing the whole tree, React will only write the difference between the new tree and the previous tree since it has both trees in memory. This process is known as tree reconciliation, and I think it’s the best thing that’s happened in web development since AJAX!
+Khi trạng thái của một thành phần thay đổi, những thay đổi này cần tham chiếu ở nơi nào đó. Trong mô hình web truyền thống với DOM, chúng ta cần tạo lại mã HTML để thể hiện các đối tượng mới trên trang web, nói cách khác chúng ta cần tạo ra view mới khi trạng thái của component thay đổi. Với React, chúng ta không cần lo lắng về cách thức tạo ra view mới, React sẽ kiểm soát những thay đổi này và tự động update views khi cần thiết.
 
-...coming soon...
+http://todomvc.com/examples/react/#/
+
+Bạn có thể thấy cách view thay đổi trong ví dụ todomvc ở đường link trên, khi người dùng chọn complete một nhiệm vụ.
+
+3.  DOM ảo (VirtualDOM))
+
+Với React, chúng ta viết HTML sử dụng JavaScript. Chúng ta mượn khả năng linh hoạt của Javascript để tạo ra mã HTML phụ thuộc trên dữ liệu, đây là cách tiếp cận khác với kiểu mở rộng HTML (Enhancing HTML). Phương thức mở rộng HTML được một vài framework sử dụng, điển hình là Angular. Angular đã mở rộng HTML với các đặc điểm như vòng lặp, các câu lệnh điều kiện và một vài tiện ích khác.
+
+Hãy nghĩ về việc bạn lấy dữ liệu từ server với AJAX, để xử lý dữ liệu này chúng ta không chỉ cần HTML mà còn cần một phương thức tốt hơn để thao tác với dữ liệu. Nếu bạn đã làm Angular hay ASP.NET MVC, bạn sẽ không xa lạ gì với đặc điểm mở rộng HTML như ngRepeat. React có một cách tiếp cận khác với thứ gọi là VirtualDOM. Việc sử dụng Javascript để tạo ra mã HTML cho phép React có một cây đối tượng HTML ảo - VirtualDOM. Khi bạn load trang web sử dụng React, một VirtualDOM được tạo ra và lưu trong bộ nhớ. Mỗi khi có một trạng thái thay đổi, chúng ta sẽ có một cây đối tượng HTML mới và cần được tạo lại để hiển thị lên trình duyệt. Thay vì tạo lại toàn bộ cây, React dùng một thuật toán thông minh để tạo lại chỉ các thành phần khác biệt giữa cây mới và cây cũ. Và bởi vì cả hai cây cũ và mới đều được lưu trong bộ nhớ, xử lý này diễn ra siêu nhanh. 
+
+Qui trình xử lý này được gọi với thuật ngữ **tree reconciliation**, và rất nhiều lập trình viên bày tỏ rằng đây là một trong những phát kiến tuyệt vời nhất trong lĩnh vực phát triển web kể từ ngày AJAX ra đời.
+
+
+*Mình đang viết tiếp phần 2: Tại sao sử dụng React? Mời bạn nào quan tâm đón xem.*
+
 ![This is demo image]({{site.baseurl}}/images/homepage_typography.jpg)
-
 
 
 [the-root-of-all-evil]: http://c2.com/cgi/wiki?PrematureOptimization

@@ -13,7 +13,7 @@ categories:
 header: no
 image:
     title: article-image-1.jpg
-    caption: This is a caption for the header image with link
+    caption: ...
     caption_url: https://unsplash.com/
 ---
 
@@ -21,7 +21,7 @@ Trong quá trình nghiên cứu và học hỏi các kỹ thuật lập trình v
 
 Suốt nhiều năm làm lập trình mình chưa thấy sự xuất hiện nào đẹp và tuyệt vời như React. Nó buộc chúng ta phải mở rộng tư duy về lập trình, thiết kế chương trình cũng như cách tiếp cận vấn đề. Và như lời giới thiệu của Facebook, React sinh ra là để giải quyết những bài toán lớn và phức tạp.
 
-Hãy xem thử một ví dụ về React 
+Hãy xem thử một ví dụ về React mình đã viết. KHi bạn nhập nội dung tại khung bên trái, ngay lập tức nội dung này được render dựa trên [Markdown] tại khung thứ hai
 
 [Mardown previewer](http://codepen.io/quangnd/full/vGOpQK/)
 
@@ -35,14 +35,13 @@ React nhỏ, nhưng có võ, hơn nữa thư viện này còn được một tro
 
 Dưới đây là những yếu tố cơ bản của React
 
-1. Các component lưu trạng thái, có thể tái sử dụng
+###1. Các component lưu trạng thái, có thể tái sử dụng
 
-Trong React, chúng ta xây dựng trang web sử dụng những thành phần (component) nhỏ. Chúng ta có thể tái sử dụng một thành phần ở nhiều nơi, với các trạng thái hoặc các thuộc tính khác nhau, trong một thành phần lại có thể chứa thành phần khác.
-In React, we build views using smaller components. Mỗi component trong React có một trạng thái riêng, có thể thay đổi, và React sẽ thực hiện cập nhật component dựa trên những thay đổi của trạng thái.
+Trong React, chúng ta xây dựng trang web sử dụng những thành phần (component) nhỏ. Chúng ta có thể tái sử dụng một component ở nhiều nơi, với các trạng thái hoặc các thuộc tính khác nhau, trong một component lại có thể chứa thành phần khác. Mỗi component trong React có một trạng thái riêng, có thể thay đổi, và React sẽ thực hiện cập nhật component dựa trên những thay đổi của trạng thái.
 
 Một đoạn code tạo ra component CommentBox 
 
-```
+{% highlight javascript %}
 var CommentBox = React.createClass({
   render: function() {
     return (
@@ -52,17 +51,17 @@ var CommentBox = React.createClass({
     );
   }
 });
-```
+{% endhighlight %}
 
-2. Phản ứng (React) khi có thay đổi
+###2. Phản ứng (React) khi có thay đổi
 
-Khi trạng thái của một thành phần thay đổi, những thay đổi này cần tham chiếu ở nơi nào đó. Trong mô hình web truyền thống với DOM, chúng ta cần tạo lại mã HTML để thể hiện các đối tượng mới trên trang web, nói cách khác chúng ta cần tạo ra view mới khi trạng thái của component thay đổi. Với React, chúng ta không cần lo lắng về cách thức tạo ra view mới, React sẽ kiểm soát những thay đổi này và tự động update views khi cần thiết.
+Khi trạng thái của một component thay đổi, những thay đổi này cần được thực hiện theo cách thức nào đó. Trong mô hình web truyền thống với DOM, chúng ta cần tạo lại mã HTML để thể hiện các đối tượng mới trên trang web, nói cách khác chúng ta cần tạo ra view mới khi trạng thái của component thay đổi. Với React, chúng ta không cần lo lắng về cách thức tạo ra view mới, React sẽ kiểm soát những thay đổi này và tự động update views khi cần thiết.
 
-http://todomvc.com/examples/react/#/
+[Todo MVC Example]
 
-Bạn có thể thấy cách view thay đổi trong ví dụ todomvc ở đường link trên, khi người dùng chọn complete một nhiệm vụ.
+Bạn có thể thấy cách view thay đổi trong ví dụ todomvc ở đường link trên, khi người dùng chọn complete một nhiệm vụ, view đã được lập tức thay đổi.
 
-3.  DOM ảo (VirtualDOM))
+###3. DOM ảo (VirtualDOM)
 
 Với React, chúng ta viết HTML sử dụng JavaScript. Chúng ta mượn khả năng linh hoạt của Javascript để tạo ra mã HTML phụ thuộc trên dữ liệu, đây là cách tiếp cận khác với kiểu mở rộng HTML (Enhancing HTML). Phương thức mở rộng HTML được một vài framework sử dụng, điển hình là Angular. Angular đã mở rộng HTML với các đặc điểm như vòng lặp, các câu lệnh điều kiện và một vài tiện ích khác.
 
@@ -70,17 +69,13 @@ Hãy nghĩ về việc bạn lấy dữ liệu từ server với AJAX, để x�
 
 Qui trình xử lý này được gọi với thuật ngữ **tree reconciliation**, và rất nhiều lập trình viên bày tỏ rằng đây là một trong những phát kiến tuyệt vời nhất trong lĩnh vực phát triển web kể từ ngày AJAX ra đời.
 
+Các tài nguyên tham khảo
+
+- [React offical page]
+- ReactJS succinctly book
 
 *Mình đang viết tiếp phần 2: Tại sao sử dụng React? Mời bạn nào quan tâm đón xem.*
 
-![This is demo image]({{site.baseurl}}/images/homepage_typography.jpg)
-
-
-[the-root-of-all-evil]: http://c2.com/cgi/wiki?PrematureOptimization
-[law-of-demeter]: https://en.wikipedia.org/wiki/Law_of_Demeter
-[refactor]: https://en.wikipedia.org/wiki/Code_refactoring
-[generalization]: https://en.wikipedia.org/wiki/Generalization
-[test-driven-development]: https://en.wikipedia.org/wiki/Test-driven_development
-[software-rot]: https://en.wikipedia.org/wiki/Software_rot
-[pragmatic-programmer]: https://pragprog.com/book/tpp/the-pragmatic-programmer
-[DRY]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[Markdown]: http://commonmark.org/help/
+[React offical page]: https://facebook.github.io
+[Todo MVC Example]: http://todomvc.com/examples/react/#/

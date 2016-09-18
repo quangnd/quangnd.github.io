@@ -9,7 +9,7 @@ header:
   image_fullwidth: header_frontpage1.jpg
 widget1:
   title: "Blog của người tự học"
-  url: 'http://quangnd.com/info/'
+  url: 'http://quangnd.com/about/'
   image: widget1.png
   text: 'Tôi đã dành bảy năm để lập trình. Tôi yêu lập trình. Bạn có thể tìm thấy nhiều những dự án, ứng dụng nhỏ trên website. Hoặc nếu muốn, hãy dành chút thời gian đọc CV của tôi.'
 widget2:

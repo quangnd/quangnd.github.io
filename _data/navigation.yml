@@ -9,10 +9,6 @@
   dropdown:
   - title: "CV (Tiếng Việt)"
     url: "https://dl.dropboxusercontent.com/u/2037650/CV_Quangnd_Vi.pdf"
-  - title: "CV (English)"
-    url: "/design/typography/typography/"
-  - title: "Kinh nghiệm"
-    url: "/"
 
 - title: Dự án đã thực hiện
   url: ""

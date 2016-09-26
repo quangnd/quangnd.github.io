@@ -11,7 +11,7 @@ widget1:
   title: "Blog của người tự học"
   url: 'http://quangnd.com/about/'
   image: widget1.png
-  text: 'Tôi đã dành bảy năm để lập trình. Tôi yêu lập trình. Bạn có thể tìm thấy nhiều những dự án, ứng dụng nhỏ trên website. Hoặc nếu muốn, hãy dành chút thời gian đọc CV của tôi.'
+  text: 'Tôi đã dành bảy năm để lập trình. Tôi yêu lập trình. Bạn có thể tìm thấy nhiều những dự án, ứng dụng nhỏ trên website. Hoặc nếu muốn, hãy dành chút thời gian đọc <a href="https://dl.dropboxusercontent.com/u/2037650/CV_Quangnd_Vi.pdf" target="_blank">CV của tôi</a>.'
 widget2:
   title: "Có gì tại blog này?"
   url: 'http://quangnd.com/blog/'

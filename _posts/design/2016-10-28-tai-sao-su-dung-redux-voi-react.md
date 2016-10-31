@@ -24,12 +24,12 @@ Có vẻ như mọi người mới bắt đầu React đều hoang mang vãi ch�
 Ok, Let's start! Lưu ý là mình chủ yếu đưa ra những gạch đầu dòng thôi nhé, còn với từng ý bạn không hiểu thì hãy ngồi xuống, kiếm 1 tách cafe và make friends with Google.
 
 === Trước tiên, bạn cần biết Redux là gì? 
-Cơ bản là một state framework, còn chi tiết vui lòng xem document (http://redux.js.org/)
+Cơ bản là một state framework, còn chi tiết vui lòng xem [Redux official document](http://redux.js.org/)
 
 === Thứ hai, why Redux:
 1. One store, store là immutable (không thay đổi trạng thái, không chứa logic ứng dụng).
 2. Giảm boilerplate (từ này ko biết dịch như nào, đại loại là giảm các thành phần code cần có để dùng framework, giảm so với gì? So với flux pattern mà FB đề nghị. Cái này lại phải tìm hiểu Flux là gì :D)
-3. Thích hợp cho các ứng dụng isomorphic/universal (https://www.lullabot.com/.../what-is-an-isomorphic...)
+3. Thích hợp cho các ứng dụng isomorphic/universal [What is an isomorphic app?](https://www.lullabot.com/.../what-is-an-isomorphic...)
 4. Hot reloading (Giữ ứng dụng đang chạy và tự inject phiên bản mới của file khi bạn edit tại thời điểm runtime, với khả năng này ứng dụng của bạn sẽ ko bị mất trạng thái). (https://facebook.github.io/.../introducing-hot-reloading...)
 5. Time travel debugging (hình dung ứng dụng bạn chạy từ bước A -> B -> C -> D, giả dụ bạn đang đứng ở D, bạn muốn quay lại B xem trạng thái của ứng dụng như nào để debug, Redux cho phép làm điều này dễ dàng. Cool, huh?)
 6. Siêu bé với 1 framework (chỉ có dung lượng 2K sau khi đã minifined và gzipped)

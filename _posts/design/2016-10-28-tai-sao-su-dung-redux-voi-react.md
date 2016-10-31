@@ -23,10 +23,12 @@ Có vẻ như mọi người mới bắt đầu React đều hoang mang vãi ch�
 
 Ok, Let's start! Lưu ý là mình chủ yếu đưa ra những gạch đầu dòng thôi nhé, còn với từng ý bạn không hiểu thì hãy ngồi xuống, kiếm 1 tách cafe và make friends with Google.
 
-=== Trước tiên, bạn cần biết Redux là gì? 
+## Trước tiên, bạn cần biết Redux là gì? 
+
 Cơ bản là một state framework, còn chi tiết vui lòng xem [Redux official document](http://redux.js.org/)
 
-=== Thứ hai, why Redux:
+## Thứ hai, why Redux:
+
 1. One store, store là immutable (không thay đổi trạng thái, không chứa logic ứng dụng).
 2. Giảm boilerplate (từ này ko biết dịch như nào, đại loại là giảm các thành phần code cần có để dùng framework, giảm so với gì? So với flux pattern mà FB đề nghị. Cái này lại phải tìm hiểu Flux là gì :D)
 3. Thích hợp cho các ứng dụng isomorphic/universal [What is an isomorphic app?](https://www.lullabot.com/.../what-is-an-isomorphic...)
@@ -34,7 +36,8 @@ Cơ bản là một state framework, còn chi tiết vui lòng xem [Redux offici
 5. Time travel debugging (hình dung ứng dụng bạn chạy từ bước A -> B -> C -> D, giả dụ bạn đang đứng ở D, bạn muốn quay lại B xem trạng thái của ứng dụng như nào để debug, Redux cho phép làm điều này dễ dàng. Cool, huh?)
 6. Siêu bé với 1 framework (chỉ có dung lượng 2K sau khi đã minifined và gzipped)
 
-===Thứ ba, bạn cần Redux khi: (hãy luôn xem Facebook hay Twitter là một ví dụ điển hình cho những ý bên dưới)
+## Thứ ba, bạn cần Redux khi: (hãy luôn xem Facebook hay Twitter là một ví dụ điển hình cho những ý bên dưới)
+
 1. Ứng dụng của bạn có data flow phức tạp.
 2. Các component trong ứng dụng không có quan hệ cha con mà có quan hệ qua lại với nhau. (inter-component)
 3. Các dữ liệu không có tính phân cấp (non-heirachical)
@@ -42,7 +45,7 @@ Cơ bản là một state framework, còn chi tiết vui lòng xem [Redux offici
 5. Dữ liệu được sử dụng ở nhiều nơi.
 ...
 
-Lời khuyên dành cho beginner:
+## Lời khuyên dành cho beginner:
 1. Đọc kỹ hướng dẫn sử dụng trước khi dùng. Redux có một tài liệu được đầu tư kỹ và viết rất tốt. Tất cả những gì bạn cần làm khả năng đọc hiểu tiếng anh và 1 tinh thần ham học hỏi.
 2. Nắm vững React cơ bản trước khi bắt đầu với 1 framework đi kèm (cụ thể là Redux, Flux, hay Mobx, hay Alt....)
 3. Tìm các tutorial trên mạng, đọc cách họ làm, làm theo họ. Sau khi mọi thứ xong thì xoá đi làm lại bằng trí nhớ của bạn. Lưu ý là bắt đầu bằng những ví dụ đơn giản.

@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "Các dự án Javascript đơn giản - Just for fun"
+title: "Các tiểu dự án Javascript"
 subheadline: "Mini Javascript"
 teaser: "Kết hợp giữa HTML, CSS, Javascript & JqueryJquery cùng một vài thuật toán cơ sở khác! Các dự án được xây dựng trên codepen.io, nếu có hứng thú bạn có thể fork và sửa source code theo ý của mình :)"
 permalink: "/minijavascript/"

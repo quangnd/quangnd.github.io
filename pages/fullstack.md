@@ -6,9 +6,11 @@ teaser: ""
 permalink: "/fullstack/"
 ---
 
- <img src="{{ site.urlimg }}FreeCodeCamp/Simple_UseCase.jpg" alt="Voting App fullstack">
+
 
 #1. Voting app
+
+ <img src="{{ site.urlimg }}FreeCodeCamp/Simple_UseCase.jpg" alt="Voting App fullstack">
 
 This is a fullstack React web app with NodeJS and its ecosystem. However, in this project, I don't use a backend system, I used fakeAPI for demo.
 
@@ -21,3 +23,9 @@ GitHub source at: <a href="https://github.com/quangnd/Voting-FakeAPI-ReactApp" t
 (Read Github readme file for more detail!)
 
 Thanks!
+
+#2. Metabit 
+
+A simple Quiz system with React, MongoDB, and NodeJS ecosystem.
+  
+Github source at: <a href="https://github.com/quangnd/metabit-demo-version1" target="_blank">https://github.com/quangnd/metabit-demo-version1</a>

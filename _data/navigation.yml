@@ -3,12 +3,16 @@
   side: left
   icon: home
 
-- title: Công việc
+- title: Kinh nghiệm
   url: "/design/portfolio/"
   side: left 
   dropdown:
-  - title: "CV (Tiếng Việt)"
-    url: "https://dl.dropboxusercontent.com/u/2037650/CV_Quangnd_Vi.pdf"
+  - title: "CV (English)"
+    url: "/assets/downloads/CV_Quangnd_English"
+  - title: "MongoDB for Node.js Developers Course"
+    url: "/assets/downloads/MongoDB_Certificate.pdf"
+  - title: "FreeCodeCamp Course"
+    url: "/assets/downloads/FreeCodeCamp_Certificate.jpg" 
 
 - title: Dự án đã thực hiện
   url: ""

@@ -6,7 +6,7 @@ teaser: ""
 permalink: "/fullstack/"
 ---
 
-#1. Voting app
+## 1. Voting app
 
  <img src="{{ site.urlimg }}FreeCodeCamp/Simple_UseCase.jpg" alt="Voting App fullstack">
 
@@ -22,13 +22,15 @@ GitHub source at: <a href="https://github.com/quangnd/Voting-FakeAPI-ReactApp" t
 
 Thanks!
 
-#2. Metabit 
+## 2. Metabit 
 
 A simple Quiz system with React, MongoDB, and NodeJS ecosystem.
   
-Github source at: <a href="https://github.com/quangnd/metabit-demo-version1" target="_blank">https://github.com/quangnd/metabit-demo-version1</a>
+Github source at <a href="https://github.com/quangnd/metabit-demo-version1" target="_blank">https://github.com/quangnd/metabit-demo-version1</a>
 
-#3. LotteryWorld 
+See online at <a href="http://metabit.com.vn/">http://metabit.com.vn/</a>
+
+## 3. LotteryWorld 
 
 An ecommerce application using Meteor Fullstack NodeJS framework.
   

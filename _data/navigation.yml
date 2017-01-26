@@ -34,6 +34,10 @@
   - title: "Bài viết lưu trữ"
     url: "/blog/archive/"
 
+- title: Plan2017
+  url: "/plan2017/"
+  side: left
+  
 - title: "Tìm kiếm"
   url: "/search/"
   side: right

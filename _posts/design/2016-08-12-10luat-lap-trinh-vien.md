@@ -18,7 +18,7 @@ image:
 
 Dưới đây là 10 luật thú vị rút ra từ cuốn sách, nếu một lập trình viên hiểu và thực hiện những điều này trong công việc hàng ngày, tôi khẳng định chẳng bao lâu anh ta sẽ trở thành một lập trình viên giỏi, viết code rõ ràng, đẹp và có tính tái sử dụng!
 
-**Luật #1: Do not repeat yourself - Đừng lặp lại bản thân bạn**
+**Luật #1: Do not repeat yourself**
 
 [Nguyên tắc DRY][DRY] được phát biểu như sau:
 
@@ -62,11 +62,11 @@ Respecting the Law of Demeter when writing code enhance maintainability and redu
 
 **Rule #6: Configure, don’t integrate - Cấu hình, không tích hợp**
 
-Chi tiết sẽ làm lộn xộn code của bạn, chúng thay đổi thường xuyên (như các hằng số, chuỗi...). Mỗi thay đổi trong code tiềm ẩn nguy cơ phá vỡ hệ thống. Để loại trừ điều này, bạn nên đưa các chi tiết ra khỏi code, đặt chúng trong các file cấu hình. Code cấu hình còn được gọi là "soft code", nó  Every change to the code is a risk to break the system. To avoid that, you should get the details out of the code, in configuration files. Configurable code is called Â« soft code Â», nó thích nghi với sự thay đổi.
+Chi tiết sẽ làm lộn xộn code của bạn, chúng thay đổi thường xuyên (như các hằng số, chuỗi...). Mỗi thay đổi trong code tiềm ẩn nguy cơ phá vỡ hệ thống. Để loại trừ điều này, bạn nên đưa các chi tiết ra khỏi code, đặt chúng trong các file cấu hình. Code cấu hình còn được gọi là "soft code", nó  thích nghi với sự thay đổi.
 
 Bát cứ khi nào bạn phải sử dụng chi tiết trong code của mình, dừng lại và đặt chúng ra ngoài. Một chút thời gian lúc này sẽ đem lại thời gian hữu ích gấp 10 lần trong tương lai.
 
-**Rule #7: Refactor Early, refactor often- Cải tiến code sớm, cải tiến thường xuyên**
+**Rule #7: Refactor Early, refactor often - Cải tiến code sớm, cải tiến thường xuyên**
 
 Bạn nên cải tiến code, nhưng khi nào? Sau đây là một vài gợi ý: 
 

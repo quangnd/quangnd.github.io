@@ -1,5 +1,5 @@
 # My personal blog based on Jekyll
 
-Link: http://quangnd.com
+Updated Link: http://quangnd.github.io
 
 About me...

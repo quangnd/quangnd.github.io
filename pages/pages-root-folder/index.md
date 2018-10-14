@@ -9,18 +9,18 @@ header:
   image_fullwidth: header_frontpage1.jpg
 widget1:
   title: "Blog của người tự học"
-  url: 'http://quangnd.com/about/'
+  url: 'http://quangnd.github.io/about/'
   image: widget1.png
   text: 'Tôi đã dành bảy năm để lập trình. Tôi yêu lập trình. Bạn có thể tìm thấy nhiều những dự án, ứng dụng nhỏ trên website. Hoặc nếu muốn, hãy dành chút thời gian đọc <a href="https://dl.dropboxusercontent.com/u/2037650/CV_Quangnd_Vi.pdf" target="_blank">CV của tôi</a>.'
 widget2:
   title: "Có gì tại blog này?"
-  url: 'http://quangnd.com/blog/'
+  url: 'http://quangnd.github.io/blog/'
   image: widget2.png
   text: '<em>Rất nhiều thứ hay ho.</em><br/>1. Bài viết hướng dẫn học lập trình :)<br/>2. Phương pháp học tập, làm việc hiệu quả<br/>4. Giới thiệu và đánh giá sách.<br/>5. Thảo luận & sẻ chia.'
   
 widget3:
   title: "Tài nguyên đã lựa chọn"
-  url: 'http://quangnd.com/resources/'
+  url: 'http://quangnd.github.io/resources/'
   image: humans.png
   text: '<em>Rất nhiều công cụ hỗ trợ lập trình.</em><br/>1. <a href="http://regexone.com" target="_blank">Học regular expression.</a><br/>2. <a href="http://commonmark.org/help/" target="_blank">Học viết với markdown.</a><br/>3. <a href="http://codewars.com/r/YCdOTA" target="_blank">Lập trình cơ bản.</a><br/>4. <a href="http://freecodecamp.com" target="_blank">Fullstack Dev với FreeCodeCamp.</a><br/>'
 
